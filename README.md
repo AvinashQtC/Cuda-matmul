@@ -160,7 +160,6 @@ Speedup: 38.51x
 
 | Limitation | Suggested Fix |
 |---|---|
-| No correctness check — CPU and GPU outputs are never compared | Add element-wise max-abs-diff assertion after benchmarking |
 | No shared-memory tiling | Tile A and B into `__shared__` blocks of size `BLOCK_SIZE×BLOCK_SIZE` |
 | No CUDA error checking | Wrap every CUDA call with a `checkCuda()` macro |
 | No cuBLAS baseline | Add `cublasSgemm()` as a third benchmark column |

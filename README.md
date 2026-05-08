@@ -167,10 +167,4 @@ Speedup: 38.51x
 
 ---
 
-## License
 
-No license is currently specified. To publish on GitHub, add a `LICENSE` file — GitHub's license picker is available at repository creation. Recommended choices:
-
-- **MIT** — permissive, minimal restrictions
-- **Apache 2.0** — permissive with explicit patent grant
-- **GPL-3.0** — copyleft; derivatives must also be open source
